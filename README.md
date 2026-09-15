@@ -72,6 +72,15 @@ com.smarttask
 
 Main: Clase principal que controla el menú interactivo, la captura de datos con Scanner y la gestión de excepciones de entrada.
 
-Enlace al repositorio:
+### Capturas de Pantalla
+
+![Menú Principal](img/01_menu_principal.png)
+![Agregar Tareas](img/02_agregar_tarea_normal.png)
+![Tarea Urgente](img/03_agregar_tarea_urgente.png)
+![Listar Tareas](img/04_listar_tareas.png)
+![Tareas Completadas](img/05_marcar_completada.png)
+![Eliminar Tarea](img/06_eliminar_tarea.png)
+
+### Enlace al repositorio:
 
 Repositorio de GitHub-SmartTask: https://github.com/robertoaedo/smarttask

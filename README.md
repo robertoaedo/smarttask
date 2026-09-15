@@ -1,19 +1,23 @@
 ## Descripción
+
 SmartTask es una aplicación de consola desarrollada en Java 25 para administrar tareas personales. Permite registrar tareas de tipo Normal y Urgente, listar tareas clasificadas en activas y completadas, marcar tareas finalizadas y eliminarlas utilizando una asignación automática de IDs autoincrementales controlada de forma centralizada.
 
 ## Cómo compilar
+
 Desde la raíz del proyecto, ejecute en la terminal de PowerShell o CMD:
 
 ### Opción A: Compilación con Maven
 ```bash
 mvn clean compile
 
-### Opción B: Compilación con Java CLI(Sin Maven)
+## Opción B: Compilación con Java CLI(Sin Maven)
 ```bash
 javac -encoding UTF-8 -cp "lib/*" -d bin src/main/java/com/smarttask/model/*.java src/main/java/com/smarttask/service/*.java src/main/java/com/smarttask/Main.java src/test/java/com/smarttask/service/*.java
 
-### Cómo ejecutar
+## Cómo ejecutar
+
 Pruebas Unitarias (JUnit 5)
+
 Con Maven:
 ```bash
 mvn test
@@ -32,27 +36,27 @@ Con Java CLI(Binario o JAR):
 ```bash
 java -cp bin com.smarttask.Main ó java -jar SmartTask.jar
 
-Generación de JavaDoc
+## Generación de JavaDoc
 
-### Para generar la documentación HTML del proyecto dentro de la carpeta doc/:
+Para generar la documentación HTML del proyecto dentro de la carpeta doc/:
 
 ```bash
 javadoc -d doc -encoding UTF-8 -charset UTF-8 -docencoding UTF-8 -cp "lib/*" src/main/java/com/smarttask/model/*.java src/main/java/com/smarttask/service/*.java
 
-### Generación del Ejecutable .JAR y Archivo .ZIP Final
+## Generación del Ejecutable .JAR y Archivo .ZIP Final
 
-### Crear SmartTask.jar:
+Crear SmartTask.jar:
 
 ```bash
 "Main-Class: com.smarttask.Main" | Out-File -Encoding ascii Manifest.txt
 jar cfm SmartTask.jar Manifest.txt -C bin com
 
-### Crear paquete de entrega comprimido (SmartTask_Entrega_Final.zip):
+Crear paquete de entrega comprimido (SmartTask_Entrega_Final.zip):
 
 ```bash
 Compress-Archive -Path src, pom.xml, log_ejecucion.txt, log_tests.txt, README.md, doc, SmartTask.jar -DestinationPath ..\SmartTask_Entrega_Final.zip -Force
 
-### Estructura de clases
+## Estructura de clases
 
 com.smarttask.model
 
@@ -72,7 +76,7 @@ com.smarttask
 
 Main: Clase principal que controla el menú interactivo, la captura de datos con Scanner y la gestión de excepciones de entrada.
 
-### Capturas de Pantalla
+## Capturas de Pantalla
 
 ![Menú Principal](img/01_menu_principal.png)
 ![Agregar Tareas](img/02_agregar_tarea_normal.png)
@@ -81,6 +85,7 @@ Main: Clase principal que controla el menú interactivo, la captura de datos con
 ![Tareas Completadas](img/05_marcar_completada.png)
 ![Eliminar Tarea](img/06_eliminar_tarea.png)
 
-### Enlace al repositorio:
+## Enlace al repositorio:
 
 Repositorio de GitHub-SmartTask: https://github.com/robertoaedo/smarttask
+

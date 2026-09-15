@@ -1,0 +1,12 @@
+﻿================================================================================
+PRUEBAS UNITARIAS - GESTORTAREASTEST
+================================================================================
+Métodos ejecutados:
+- testAgregarTarea: SUCCESS
+- testListarTareas: SUCCESS
+- testMarcarComoCompletada: SUCCESS
+
+Total de pruebas ejecutadas: 3
+Pruebas exitosas: 3
+Pruebas fallidas: 0
+================================================================================

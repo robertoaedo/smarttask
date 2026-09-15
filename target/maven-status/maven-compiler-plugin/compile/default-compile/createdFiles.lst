@@ -1,0 +1,6 @@
+com\smarttask\model\Tarea.class
+com\smarttask\model\TareaUrgente.class
+com\smarttask\model\TareaNormal.class
+com\smarttask\service\GestorTareas.class
+com\smarttask\Main.class
+com\smarttask\service\Accionable.class

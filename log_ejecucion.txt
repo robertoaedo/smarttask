@@ -1,0 +1,61 @@
+﻿1. Agregar tarea
+2. Listar tareas
+3. Marcar tarea como completada
+4. Eliminar tarea
+5. Salir
+Seleccione una opcion: 1
+Nombre de la tarea: Comprar pan
+Tipo de tarea:
+1. Normal
+2. Urgente
+Seleccione tipo: 1
+
+1. Agregar tarea
+2. Listar tareas
+3. Marcar tarea como completada
+4. Eliminar tarea
+5. Salir
+Seleccione una opcion: 1
+Nombre de la tarea: Pagar cuentas
+Tipo de tarea:
+1. Normal
+2. Urgente
+Seleccione tipo: 2
+Dias limite: 1
+
+1. Agregar tarea
+2. Listar tareas
+3. Marcar tarea como completada
+4. Eliminar tarea
+5. Salir
+Seleccione una opcion: 2
+
+TAREAS ACTIVAS
+[NORMAL] ID: 1 | Nombre: Comprar pan | Estado: Pendiente
+[URGENTE] ID: 2 | Nombre: Pagar cuentas | Estado: Pendiente | Dias Limite: 1
+
+TAREAS COMPLETADAS
+
+1. Agregar tarea
+2. Listar tareas
+3. Marcar tarea como completada
+4. Eliminar tarea
+5. Salir
+Seleccione una opcion: 3
+Ingrese ID: 1
+
+1. Agregar tarea
+2. Listar tareas
+3. Marcar tarea como completada
+4. Eliminar tarea
+5. Salir
+Seleccione una opcion: 4
+Ingrese ID: 2
+
+1. Agregar tarea
+2. Listar tareas
+3. Marcar tarea como completada
+4. Eliminar tarea
+5. Salir
+Seleccione una opcion: 5
+Programa finalizado.

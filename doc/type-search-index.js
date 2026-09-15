@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.smarttask.service","l":"Accionable","k":"10"},{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"com.smarttask.service","l":"GestorTareas"},{"p":"com.smarttask.model","l":"Tarea"},{"p":"com.smarttask.model","l":"TareaNormal"},{"p":"com.smarttask.model","l":"TareaUrgente"}];updateSearchResults();

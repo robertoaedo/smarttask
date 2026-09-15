@@ -9,11 +9,12 @@ Desde la raíz del proyecto, ejecute en la terminal de PowerShell o CMD:
 ### Opción A: Compilación con Maven
 ```bash
 mvn clean compile
+```
 
 ## Opción B: Compilación con Java CLI(Sin Maven)
 ```bash
 javac -encoding UTF-8 -cp "lib/*" -d bin src/main/java/com/smarttask/model/*.java src/main/java/com/smarttask/service/*.java src/main/java/com/smarttask/Main.java src/test/java/com/smarttask/service/*.java
-
+```
 ## Cómo ejecutar
 
 Pruebas Unitarias (JUnit 5)
@@ -35,14 +36,14 @@ mvn exec:java -Dexec.mainClass="com.smarttask.Main"
 Con Java CLI(Binario o JAR):
 ```bash
 java -cp bin com.smarttask.Main ó java -jar SmartTask.jar
-
+```
 ## Generación de JavaDoc
 
 Para generar la documentación HTML del proyecto dentro de la carpeta doc/:
 
 ```bash
 javadoc -d doc -encoding UTF-8 -charset UTF-8 -docencoding UTF-8 -cp "lib/*" src/main/java/com/smarttask/model/*.java src/main/java/com/smarttask/service/*.java
-
+```
 ## Generación del Ejecutable .JAR y Archivo .ZIP Final
 
 Crear SmartTask.jar:
@@ -55,7 +56,7 @@ Crear paquete de entrega comprimido (SmartTask_Entrega_Final.zip):
 
 ```bash
 Compress-Archive -Path src, pom.xml, log_ejecucion.txt, log_tests.txt, README.md, doc, SmartTask.jar -DestinationPath ..\SmartTask_Entrega_Final.zip -Force
-
+```
 ## Estructura de clases
 
 com.smarttask.model
